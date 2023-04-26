@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h2{font-family:"Figtree"; font-size:4vw; letter-spacing: .5pt; font-weight:900; margin-bottom:1vw; margin-left:2vw; padding-bottom:10vw;}
+h3{font-family:"Figtree"; font-size:2vw;  font-weight:800; margin-bottom:1vw; margin-left:2vw;}
+h4{font-family:"Figtree"; font-size:1.5vw; font-weight:500; margin-bottom:1vw; margin-left:2vw;}
+h5{font-family:"Figtree"; font-size:1vw;  font-weight:800; margin-bottom:.5vw;}
+h6{font-family:"Figtree"; font-size:1vw;  font-weight:400; margin-bottom:1vw;}
+p{font-family:'Figtree';  font-size:1vw; font-weight:400; margin-bottom:.5vw; margin-left:2vw;}
+h4 {font-size: 10px;}
+@media screen and (min-width: 600px) {h4 {font-size: 2.5vw;}}
+@media screen and (min-width: 1200px) {h4 {font-size: 20px;}}
+h5 {font-size: 10px;}
+@media screen and (min-width: 600px) {h5 {font-size: 1.5vw;}}
+@media screen and (min-width: 1200px) {h5 {font-size: 18px;}}
+h6 {font-size: 10px;}
+@media screen and (min-width: 600px) {h6 {font-size: 1.5vw;}}
+@media screen and (min-width: 1200px) {h6 {font-size: 18px;}}
+/*end of CSS reset*/
+/*Global styles begin*/
+body{background:#fff; color:#333; font-family:'Open Sans','Arial','Helvetica','Roboto',sans-serif;}
+div{box-sizing:border-box;}
+/*Global styles end*/
+/*Typo begin*/
+div.rtf{}
+div.rtf p{font-size:1em; line-height:1.5em; margin-bottom:0.5em;}
+div.rtf h1{font-size:3.2em; line-height:1.5em; margin-bottom:0.5em; margin-top: 1em; text-align:center;}
+div.rtf h2{font-size:2.4em; line-height:1.5em; margin-bottom:0.5em; margin-top: 1em;}
+div.rtf h3{font-size:1.8em; line-height:1.5em; margin-bottom:0.5em; margin-top: 1em;}
+div.rtf h4{font-size:1.2em; line-height:1.5em; margin-bottom:0.5em; margin-top: 1em;}
+/*Typo end*/
+/*Heading Typo begins*/
+div.logohead{width:25%;max-width:1000px; height:auto; position:relative; align-content:center;
+	           top:30%; left:37.5%; padding-top: 10%; padding-bottom: 20%;}
+
+h1.sub1 {font-family:"Helvetica"; font-weight:lighter; text-align:center; font-size:4vw; letter-spacing:50px}
+/*Heading Typo ends*/
+/*arrow transition begin*/
+
+img.image{opacity: 0;; padding-top: 33%; width:4.5vw; padding-left:40%;}
+img.image.show{opacity:1; transition:opacity 1s ease-in-out; max-width:100px; }
+/*arrow transition end*/
+
+/*Jumppoint begin * /
+
+div.jumppoint{margin:10vw; justify-items:center; display:grid; grid-gap:40px; grid-template-columns:1fr 1fr 1fr;}
+div.jumppoint img{max-height:350px; padding:50px;}
+div.jump1 { position:relative;}
+div.jumppoint p{font-size:24pt; font-weight:600; font-family:'Helvetica'; position:relative; top:-50%; text-align:center; color: black; margin:1vw; padding-bottom:200px; padding-top:300px; background=image:url(proj1icon.jpg);}
+
+/*Jumppoint end*/
+/*Project1 Start*/
+div.project1{position: relative; padding-bottom:10vw; padding-top:4vw; background-color:#e2ddd6; }
+img.timeline{width:98.8vw; height:auto; padding-bottom:1vw; box-sizing: border-box; object-position:center; object-fit:contain;}
+/*Project1 End*/
+/*Project2 Start*/
+div.project2{position: relative; padding-bottom:10vw; padding-top:4vw; background-color:#cdd0cc; }
+img.project2name{width:100vw; object-position:center; object-fit:contain;}
+/*Project2 End*/
+/*Project3 Start*/
+div.project3{position: relative; padding-bottom:10vw; padding-top:4vw; background-color:#f8f7ee;}
+div.project3grid {
+  display: flex;
+  justify-content:center
+  align-items: center;
+  max-width: 100vw;
+  margin: 0 auto;
+}
+
+div.project3grid figure {
+	margin: 0 7vw; /* Update margin to create equal spacing */
+	margin-bottom:15vh;
+  text-align: left;
+  width:100%; /* Update width to account for margin */
+}
+
+div.project3grid img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+	max-height: 400px; /* Set a maximum height to prevent images from becoming too large */
+ object-fit: contain; /* Resize images to fit within the figure element */
+ margin-bottom: 10px;
+  margin-bottom: 10px;
+	padding-left:1vw; padding-right:1vw;
+}
+
+div.project3grid figcaption {
+  font-size: 14px;
+	padding-left:16px;
+	font-family:"Figtree"
+  font-weight:bolder;
+  color: #333;
+}
+
+
+/*Project3 End*/
+/*Contact begin*/
+div.contactme{padding-top: 4vw; padding-bottom:2vw; background-color:#1e1b1b; color:#ffffff}
+div.contactme p{padding-bottom:.25vw;}
+/*Contact end*/
+
+/*Cards styles begin*/
+div.cards{max-width:1200px; margin:0 auto; padding:3vw;
+	display:grid; grid-gap:2vw; grid-template-columns: repeat(auto-fill,minmax(200px,1fr));}
+
+div.card img{width:100%;}
+/*Cards styles end*/
+/*Image and text styles begin*/
+
+div.img_txt{max-width:1200px; margin:0 auto;
+	display:grid; grid-template-columns: 1fr 1fr; grid-gap:3vw; padding:3vw;
+}
+div.img_txt img{width:100%; margin-bottom:3vw;}
+div.img_txt div.rtf{align-self:start;}
+
+@media screen AND (orientation: portrait)
+{
+	div.img_txt{grid-template-columns: 1fr;}
+	div.img_txt div.txt{grid-row-start:1;}
+}
+/*Image and text styles end*/
+/*Hero image styles begin*/
+div.hero{min-height:100vh; position: relative;}
+img.hero-img{width:100%; height:100vh; object-fit:cover; display:block;}
+div.hero div.hero-txt{position:absolute; top:50%; left:50%;  transform:translate(-50%,-50%);
+  background:rgba(255,255,255,0.6);
+  padding:4em;
+}
+div.hero div.hero-txt h2{margin-top:0;}
+/*Hero image styles end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
